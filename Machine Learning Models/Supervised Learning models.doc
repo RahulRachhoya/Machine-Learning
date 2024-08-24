@@ -1,0 +1,94 @@
+---------------------------------Supervised Learning Models-------------------------------
+
+Define - In this type, the machine learning model is trained on labeled data, where the correct output is already known. The model learns to 
+map inputs to outputs based on the provided examples. 
+
+
+Supervised learning can be further divided into:
+    Regression models: Predict numerical values (e.g., predicting energy usage in kilowatt-hours).
+    Classification models: Predict categorical outcomes (e.g., categorizing images as cats or dogs).
+
+
+Regression Models:
+    Here are some Regression Models below:
+    1. Linear Regression: A linear model that predicts a continuous output variable based on one or
+    more predictor variables. It assumes a linear relationship between the independent variable(s) and the dependent variable
+    
+    2. Lasso Regression: Lasso Regression is a linear regression technique that adds a penalty term to the cost function to reduce the coefficients’ absolute values, making some of them zero. This promotes automatic feature selection and sparsity in the model. 
+    The penalty term is calculated as the absolute value of the coefficients multiplied by a regularization parameter (alpha or lambda).
+    
+    3. Polynomial Regression: Polynomial regression is a form of regression where the relationship between the independent variable(s) and the dependent
+    variable is modeled using a polynomial equation of a certain degree. The degree of the polynomial is a
+    hyperparameter that needs to be tuned. Polynomial regression can be used to model non-linear relationships between
+    variables.
+    
+    4. Support vector Machine Regressor:Support Vector Machine Regressor (SVR) is a type of regression model that uses a
+    kernel trick to map the data into a higher-dimensional space where it becomes linearly separable.
+    
+    5. Random Forest Regressor:Random Forest Regressor is an ensemble learning method that combines multiple decision trees to produce a more
+    accurate prediction. It works by training multiple decision trees on random subsets of the data and then
+    averaging their predictions.
+    
+    6. Bayesian Linear Regressor:Bayesian linear regression is a type of regression model that uses Bayesian inference to estimate the parameters of the
+    model. It is a probabilistic model that assumes a normal distribution for the residuals and uses a
+    prior distribution for the coefficients.
+    
+    7. Gradient Boosting Regressor:Gradient Boosting Regressor is an ensemble
+    learning method that combines multiple weak models to produce a strong predictive model. It works by training
+    multiple decision trees on the residuals of the previous model and then combining their predictions.
+    
+    8. Elastic Net Regressor: Elastic Net Regressor is a type of regression
+    model that combines the features of Lasso and Ridge regression. It adds a penalty term to the
+    cost function to reduce the coefficients’ absolute values, making some of them zero, and also adds
+    a penalty term to the cost function to reduce the coefficients’ magnitude, making all of them smaller
+    
+    9. Huber Regressor: Huber Regressor is a type of regression
+    model that uses a combination of mean squared error and mean absolute error as the loss function. It
+    is more robust to outliers than mean squared error but less robust than mean absolute error.
+    
+    10. K-Nearest Neighbors Regressor: K-Nearest Neighbors Regressor is a type of regression model that predicts the output variable based on the k-ne
+    neighbors of the input data point.
+
+
+Classification Models:
+    Here is a classification models below:
+    1. Logistic Regression: Logistic regression is a type of regression model that is used for classification
+    problems. It predicts the probability of an event occurring based on one or more predictor variables.
+    
+    2. Decision Trees: Decision trees are a type of supervised learning model that can be used
+    for both classification and regression tasks. They work by recursively partitioning the data into smaller subsets based
+    on the values of the predictor variables.
+    
+    3. Random Forest Classifier:Random Forest Classifier is an ensemble learning method that combines multiple decision
+    trees to produce a more accurate prediction. It works by training multiple decision trees on random subsets of
+    the data and then averaging their predictions.
+    
+    4. Support Vector Machine Classifier:Support Vector Machine Classifier (SVM) is a type
+    of classification model that uses a kernel trick to map the data into a higher-dimensional space where it
+    becomes linearly separable.
+    
+    5. K-Nearest Neighbors Classifier: K-Nearest Neighbors Classifier is
+    a type of classification model that predicts the output variable based on the k-nearest neighbors of the
+    input data point.
+    
+    6. Gradient Boosting Classifier:Gradient Boosting Classifier is an ensemble
+    learning method that combines multiple weak models to produce a strong predictive model. It works by
+    training multiple decision trees on the residuals of the previous model and then combining their predictions.
+    
+    7. Naive Bayes Classifier: Naive Bayes Classifier is a type of classification
+    model that assumes independence between the features and uses Bayes' theorem to make predictions.
+    
+    8. AdaBoost Classifier:AdaBoost Classifier is an ensemble learning method that combines multiple weak
+    models to produce a strong predictive model. It works by training multiple decision trees on the residuals
+    of the previous model and then combining their predictions.
+    
+    9. XGBoost Classifier:XGBoost Classifier is an ensemble learning method that combines multiple
+    decision trees to produce a more accurate prediction. It works by training multiple decision trees on
+    random subsets of the data and then averaging their predictions.
+    
+    10. LightGBM Classifier:LightGBM Classifier is an ensemble learning method that combines
+    multiple decision trees to produce a more accurate prediction. It works by training multiple decision
+    trees on random subsets of the data and then averaging their predictions.
+    
+
+
